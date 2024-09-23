@@ -1,0 +1,163 @@
+/* sally li (jiaxuanl@bu.edu) */
+
+* {
+    margin:auto;
+    box-sizing: border-box;
+}
+
+header {
+    margin: auto;
+    padding: 0;
+    color: white;
+    background-color: #102c57;
+}
+
+header #title {
+    margin: 1%;
+}
+
+#title a {
+    color: white;
+    text-decoration: none;
+    font-size: calc(2px + 6vw);
+}
+
+#type1 {
+    font-size: calc(2px + 1.25vw);
+}
+
+header #intro {
+    padding: 20% 0;
+    font-family:  'Courier', monospace;
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(22, 121, 171, 0.5);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0;
+    align-items: center;
+}
+
+nav a {
+    font-size: calc(2px + 1.5vw);
+}
+
+nav li {
+    padding: 2%;
+    /*border: #ffcbcb 3px solid;*/
+    margin: 2%;
+    width: 80%;
+    font-size: calc(2px + 1.5vw)
+}
+
+nav img {
+    max-width: 70%;
+}
+
+#page-wrapper {
+    /*width: 80vw;*/
+    margin: auto;
+    text-align: center;
+}
+
+main {
+    margin: auto;
+    padding: 0 1%;
+    background-color: #1679ab;
+    height: 100%;
+    width: 100%;
+    font-size: calc(2px + 1vw);
+    line-height: 1.5;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+main p {
+    color: black;
+    font-family:  'Courier', monospace;
+}
+
+#type2 {
+    text-align: left;
+    padding: 0;
+    width: 20%;
+    color: white;
+}
+
+#first-block {
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+}
+
+#second-block {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#pic1 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    transform: rotate(5deg);
+    max-width: 5%;
+}
+
+#pic2 {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    transform: rotate(-10deg);
+    max-width: 5%;
+}
+
+#pic3 {
+    position: absolute;
+    top: 15%;
+    left: 14%;
+    transform: rotate(-7deg);
+    max-width: 5%;
+}
+
+#type3 {
+    padding: 20% 0;
+    text-align: center;
+    color: white;
+}
+
+.tile {
+    float: none;
+    background: #ffb1b1;
+    width: 10rem;
+    margin: 0.2rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+}
+
+footer {
+    background-color: #ffcbcb;
+    font-size: calc(2px + 1.5vw);
+}
+
+@media screen and (max-width: 750px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

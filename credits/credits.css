@@ -1,0 +1,92 @@
+/*sally li (jiaxuanl@bu.edu)*/
+
+* {
+    margin: auto;
+    box-sizing: border-box;
+}
+
+header {
+    margin: auto;
+    padding: 0;
+    color: white;
+    background-color: #102c57;
+}
+
+header #title {
+    margin: 1%;
+    color: white;
+    text-decoration: none;
+    font-size: calc(2px + 6vw);
+}
+
+header p {
+    font-size: calc(2px + 1.25vw);
+    line-height: 1.5;
+}
+
+header #intro {
+    padding: 17% 0;
+    font-family:  'Courier', monospace;
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(22, 121, 171, 0.5);
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0;
+    align-items: center;
+}
+
+nav a {
+    font-size: calc(2px + 1.5vw);
+}
+
+nav li {
+    padding: 2%;
+    margin: 2%;
+    width: 80%;
+    font-size: calc(2px + 1.5vw)
+}
+
+nav img {
+    max-width: 70%;
+}
+
+/*Seunghyeok Lim, limsh@bu.edu*/
+
+#page-wrapper {
+    margin: auto;
+    text-align: center;
+}
+
+main {
+    margin: auto;
+    text-align: left;
+    padding: 2%;
+    background-color: #ffb1b1;
+    height: 100%;
+    width: 100%;
+    font-size: calc(2px + 1.5vw);
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
